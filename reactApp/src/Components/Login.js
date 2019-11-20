@@ -51,12 +51,12 @@ const Login = ({login}) => {
       </div>
       <form onSubmit={handleSubmit}>
         <InputComponent 
-          inputName="Name" 
+          inputName="loginName" 
           inputType="input"
           onInput={parseInput.bind(this, 'name')} //Binding the input name so I can reuse the parse input function.
         />
         <InputComponent 
-          inputName="Password" 
+          inputName="loginPassword" 
           inputType="password" 
           onInput={parseInput.bind(this, 'password')} //Binding the input name so I can reuse the parse input function.
         />
