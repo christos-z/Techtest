@@ -1,0 +1,17 @@
+.container {
+  margin: 10px;
+  width: 500px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
